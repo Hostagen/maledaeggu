@@ -16,6 +16,7 @@
     "brace-expansion": "^1.1.11",
     "braces": "^3.0.2",
     "buffer-from": "^1.1.2",
+    "canvas": "^2.8.0",
     "chokidar": "^3.5.2",
     "combined-stream": "^1.0.8",
     "concat-map": "^0.0.1",
