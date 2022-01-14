@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <nav>
+    <a href="#/">English(US)</a>
+    <a href="#/ko-kr/">한국어</a>
+    <a href="#/ja-jp/">日本語</a>
+  </nav>
+
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '말대꾸?!',
+      repo: 'https://github.com/Hostagen/maledaeggu',
+      logo: '/_media/icon.svg',
+      homepage: 'home.md',
+      loadNavbar: true,
+      autoHeader: true,
+      notFoundPage: {
+        '/': '_404.md'
+      },
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
