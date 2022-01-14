@@ -3,10 +3,17 @@ import { SlashCommandBuilder} from '@discordjs/builders';
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('말대꾸하기')
-        .setDescription('○○가 말대꾸?')
+        .setDescription('○○가 XXX?')
         .addStringOption(option => 
             option.setName('이름')
-                .setDescription('무엇이 말대꾸?')
+                .setDescription('무엇이?')
                 .setRequired(true)
+                .setAutocomplete(true)
+        )
+        .addStringOption(option =>
+            option.setName('무엇을')
+                .setDescription('XXX?!')
+                .setAutocomplete(true)
+                .setRequired(false)
         )
 };
