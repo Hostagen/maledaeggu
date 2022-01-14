@@ -9,7 +9,7 @@ const globPromise = promisify(glob);
 export class MDGClient extends Client {
     commands: Collection<string, CommandType> = new Collection();
 
-    run(token: string, guildId: string) {
+    run(token: string, guildId: string | undefined) {
         this.registerModules(guildId);
         this.login(token);
     }
@@ -33,7 +33,7 @@ export class MDGClient extends Client {
 
     }
 
-    async registerModules(guildId: string) {
+    async registerModules(guildId: string | undefined) {
         const slashCommands: ApplicationCommandDataResolvable[] = [];
         const commandFiles = await globPromise(`${__dirname}/../commands/*{.ts,.js}`);
 
