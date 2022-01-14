@@ -9,6 +9,6 @@
 ## Document
 Our document supports English(US), 한국어(Korean), 日本語(Japanese).
 
-[Link to Docs.](https://hostagen.github.io/maledaeggu/#/)
-[Docs로 가기](https://hostagen.github.io/maledaeggu/#/)
-[Docsを見る](https://hostagen.github.io/maledaeggu/#/)
+- [Link to Docs.](https://hostagen.github.io/maledaeggu/#/)
+- [Docs로 가기](https://hostagen.github.io/maledaeggu/#/)
+- [Docsを見る](https://hostagen.github.io/maledaeggu/#/)
