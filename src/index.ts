@@ -10,7 +10,7 @@ export const client = new MDGClient({
 });
 
 client.once('ready', async () => {
-
+	client.user?.setActivity('말대꾸');
 });
 
 const applyText = (canvas: Canvars.Canvas, text: string) => {
