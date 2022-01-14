@@ -9,6 +9,10 @@
 ## Document
 Our document supports English(US), 한국어(Korean), 日本語(Japanese).
 
+우리의 문서는 영어와 한국어, 일어를 지원합니다.
+
+私たちの文書は英語、韓国語、日本語に対応しています。
+
 - [Link to Docs.](https://hostagen.github.io/maledaeggu/#/)
-- [Docs로 가기](https://hostagen.github.io/maledaeggu/#/)
-- [Docsを見る](https://hostagen.github.io/maledaeggu/#/)
+- [문서로 가기](https://hostagen.github.io/maledaeggu/#/ko-kr/)
+- [文書へのリンク](https://hostagen.github.io/maledaeggu/#/ja-jp/)
